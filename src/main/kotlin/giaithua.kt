@@ -5,7 +5,7 @@ fun main() {
     var b:Int;
     print("Nhap a")
     a=readLine()!!.toInt();
-    var c:Int=0;
+    var c:Int=1;
     for(i in 1..a){
         c*=i;
     }
